@@ -33,3 +33,6 @@ route = { pattern = "docker-staging.lixd.xyz", custom_domain = true }
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
+[observability.logs]
+enabled = true
